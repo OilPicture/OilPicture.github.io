@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>markdown的语法规则</title>
+    <url>//post/markdown%E7%9A%84%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99.html</url>
+    <content><![CDATA[<h1 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h1><p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等</p>
+<span id="more"></span>
+
+<h2 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h2><p>要创建标题，请在单词或短语前面添加井号（#）。#的数量代表了标题的级别。例如，添加三个#表示创建一个三级标题（h3）</p>
+<p>大叔大婶</p>
+<h2 id="段落语法"><a href="#段落语法" class="headerlink" title="段落语法"></a>段落语法</h2><p>要创建段落，请使用空白行将一行或多行文本进行分隔。</p>
+<p>分割不是分隔。</p>
+]]></content>
+      <categories>
+        <category>markdown</category>
+      </categories>
+  </entry>
+  <entry>
     <title>OilPicture’Blog</title>
     <url>//post/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0.html</url>
     <content><![CDATA[<h1 id="第一章：一级标题"><a href="#第一章：一级标题" class="headerlink" title="第一章：一级标题"></a>第一章：一级标题</h1><span id="more"></span>
