@@ -552,6 +552,10 @@
                                 <span class="chip bg-color">markdown</span>
                             </a>
                         
+                            <a href="/tags/grammar/">
+                                <span class="chip bg-color">grammar</span>
+                            </a>
+                        
                     </div>
                     
                 </div>
@@ -597,7 +601,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Markdown的基本语法"><a href="#Markdown的基本语法" class="headerlink" title="Markdown的基本语法"></a>Markdown的基本语法</h1><p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与 <code>HTML</code> 混编，可导出 <code>HTML、PDF</code> 以及本身的 <code>.md</code> 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等</p>
+                <h1 id="Markdown的基本语法"><a href="#Markdown的基本语法" class="headerlink" title="Markdown的基本语法"></a>Markdown的基本语法</h1><p><code>Markdown</code>是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与 <code>HTML</code> 混编，可导出 <code>HTML、PDF</code> 以及本身的 <code>.md</code> 格式的文件。因简洁、高效、易读、易写，<code>Markdown</code>被大量使用，如<code>Github、Wikipedia、简书</code>等</p>
 <span id="more"></span>
 
 <hr>
@@ -647,6 +651,91 @@
 </ul>
 <p> <em>Everything</em> is going according to <strong>plan</strong>.</p>
 </blockquote>
+<hr>
+<h2 id="列表语法"><a href="#列表语法" class="headerlink" title="列表语法"></a>列表语法</h2><p>可以将多个条目组织成有序或无序列表。</p>
+<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><p>要创建有序列表，请在每个列表项前添加数字并紧跟一个英文句点。数字不必按数学顺序排列，但是列表应当以数字 1 起始。</p>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>要创建无序列表，请在每个列表项前面添加破折号 (-)、星号 (*) 或加号 (+) 。缩进一个或多个列表项可创建嵌套列表。</p>
+<h3 id="在列表中嵌套其他元素"><a href="#在列表中嵌套其他元素" class="headerlink" title="在列表中嵌套其他元素"></a>在列表中嵌套其他元素</h3><p>要在保留列表连续性的同时在列表中添加另一种元素，清将该元素缩进四个空格或一个制表符，如下例所示：</p>
+<p><strong>段落</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">*   This is the first list item.
+*   Here&#39;s the second list item.
+
+    I need to add another paragraph below the second list item.
+
+*   And here&#39;s the third list item.</code></pre>
+<p><strong>渲染效果如下：</strong></p>
+<ul>
+<li><p>This is the first list item.</p>
+</li>
+<li><p>Here’s the second list item.</p>
+<p>I need to add another paragraph below the second list item.</p>
+</li>
+<li><p>And here’s the third list item.</p>
+</li>
+</ul>
+<p><strong>引用块</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">*   This is the first list item.
+*   Here&#39;s the second list item.
+
+    &gt; A blockquote would look great below the second list item.
+
+*   And here&#39;s the third list item.</code></pre>
+<p><strong>渲染效果如下：</strong></p>
+<ul>
+<li><p>This is the first list item.</p>
+</li>
+<li><p>Here’s the second list item.</p>
+<blockquote>
+<p>A blockquote would look great below the second list item.</p>
+</blockquote>
+</li>
+<li><p>And here’s the third list item.</p>
+</li>
+</ul>
+<p><strong>代码块</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">1.  Open the file.
+2.  Find the following code block on line 21:
+
+        &lt;html&gt;
+          &lt;head&gt;
+            &lt;title&gt;Test&lt;&#x2F;title&gt;
+          &lt;&#x2F;head&gt;
+
+3.  Update the title to match the name of your website.</code></pre>
+<p><strong>渲染效果如下：</strong></p>
+<ol>
+<li><p>Open the file.</p>
+</li>
+<li><p>Find the following code block on line 21:</p>
+<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Test&lt;/title&gt;
+  &lt;/head&gt;
+</code></pre>
+</li>
+<li><p>Update the title to match the name of your website.</p>
+</li>
+</ol>
+<hr>
+<h2 id="链接语法"><a href="#链接语法" class="headerlink" title="链接语法"></a>链接语法</h2><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。<br>超链接Markdown语法代码：<code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code><br>对应的HTML代码：<code>&lt;a href=&quot;超链接地址&quot; title=&quot;超链接title&quot;&gt;超链接显示名&lt;/a&gt;</code><br><strong>示例：</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">这是一个链接 [Markdown语法](https:&#x2F;&#x2F;markdown.com.cn)。</code></pre>
+<p><strong>渲染效果如下：</strong><br>这是一个链接 <a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown语法</a>。</p>
+<h3 id="给链接增加一个Title"><a href="#给链接增加一个Title" class="headerlink" title="给链接增加一个Title"></a>给链接增加一个Title</h3><p>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。</p>
+<pre class="line-numbers language-none"><code class="language-none">这是一个链接 [Markdown语法](https:&#x2F;&#x2F;markdown.com.cn &quot;markdown官方文档&quot;)。</code></pre>
+<p><strong>渲染效果如下：</strong><br>这是一个链接 <a target="_blank" rel="noopener" href="https://markdown.com.cn/" title="markdown官方文档">Markdown语法</a>。</p>
+<h3 id="网址和Email地址"><a href="#网址和Email地址" class="headerlink" title="网址和Email地址"></a>网址和Email地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
+<pre class="line-numbers language-none"><code class="language-none">myBlog：&lt;https:&#x2F;&#x2F;oilpicture.github.io&#x2F;&gt;
+myEmail：&lt;wz217110@163.com&gt;</code></pre>
+<p><strong>渲染效果如下：</strong><br>myBlog：<a target="_blank" rel="noopener" href="https://oilpicture.github.io/">https://oilpicture.github.io/</a><br>myEmail：<a href="mailto:&#119;&#122;&#50;&#x31;&#x37;&#x31;&#49;&#x30;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;">&#119;&#122;&#50;&#x31;&#x37;&#x31;&#49;&#x30;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;</a></p>
+<hr>
+<h2 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h2><p>要添加图像，请使用感叹号(<code>!</code>)，然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。<br>插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)</code>。</p>
+<pre class="line-numbers language-none"><code class="language-none">![这是图片](https:&#x2F;&#x2F;gitee.com&#x2F;cungudafa&#x2F;source&#x2F;raw&#x2F;master&#x2F;img&#x2F;bg&#x2F;hyo&#x2F;1.png &quot;Magic lady&quot;)</code></pre>
+<p><strong>渲染效果如下：</strong><br><img src="https://gitee.com/cungudafa/source/raw/master/img/bg/hyo/1.png" alt="这是图片" title="Magic lady"></p>
+<h3 id="链接图片"><a href="#链接图片" class="headerlink" title="链接图片"></a>链接图片</h3><p>给图片增加链接，请将图像的 <code>Markdown</code> 括在方括号中，然后将链接添加在圆括号中。</p>
+<pre class="line-numbers language-none"><code class="language-none">[![哔哩哔哩](https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;Tokisaki-Galaxy&#x2F;res&#x2F;site&#x2F;medias&#x2F;background.jpg &quot;two space&quot;)](https:&#x2F;&#x2F;www.bilibili.com&#x2F;)</code></pre>
+<p><strong>渲染效果如下：</strong><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/"><img src="https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg" alt="哔哩哔哩" title="two space"></a></p>
+<hr>
+<h2 id="结尾："><a href="#结尾：" class="headerlink" title="结尾："></a>结尾：</h2><p>详细内容请查阅：<a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown官方教程</a></p>
 
                 
             </div>
@@ -713,6 +802,10 @@
                             
                                 <a href="/tags/markdown/">
                                     <span class="chip bg-color">markdown</span>
+                                </a>
+                            
+                                <a href="/tags/grammar/">
+                                    <span class="chip bg-color">grammar</span>
                                 </a>
                             
                         </div>
@@ -1194,6 +1287,10 @@
                     
                     <a href="/tags/markdown/">
                         <span class="chip bg-color">markdown</span>
+                    </a>
+                    
+                    <a href="/tags/grammar/">
+                        <span class="chip bg-color">grammar</span>
                     </a>
                     
                 </div>
