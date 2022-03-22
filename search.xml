@@ -3,17 +3,63 @@
   <entry>
     <title>markdown的语法规则</title>
     <url>//post/markdown-de-yu-fa-gui-ze.html</url>
-    <content><![CDATA[<h1 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h1><p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等</p>
+    <content><![CDATA[<h1 id="Markdown的基本语法"><a href="#Markdown的基本语法" class="headerlink" title="Markdown的基本语法"></a>Markdown的基本语法</h1><p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与 <code>HTML</code> 混编，可导出 <code>HTML、PDF</code> 以及本身的 <code>.md</code> 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等</p>
 <span id="more"></span>
 
-<h2 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h2><p>要创建标题，请在单词或短语前面添加井号（#）。#的数量代表了标题的级别。例如，添加三个#表示创建一个三级标题（h3）</p>
-<p>大叔大婶</p>
-<h2 id="段落语法"><a href="#段落语法" class="headerlink" title="段落语法"></a>段落语法</h2><p>要创建段落，请使用空白行将一行或多行文本进行分隔。</p>
-<p>分割不是分隔。</p>
+<hr>
+<h2 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h2><p>要创建标题，请在单词或短语前面添加井号（#）。#的数量代表了标题的级别。<br>例如，添加三个#表示创建一个三级标题(<code>&lt;h3&gt;</code>)(例如：<code>### 我的三级标题</code>).</p>
+<hr>
+<h2 id="段落语法"><a href="#段落语法" class="headerlink" title="段落语法"></a>段落语法</h2><p>要创建段落，请使用空白行将一行或多行文本进行分隔。而且无需使用空格(<code>spaces</code>)或制表符(<code>tabs</code>)缩进段落。</p>
+<hr>
+<h2 id="换行语法"><a href="#换行语法" class="headerlink" title="换行语法"></a>换行语法</h2><p>在一行的末尾添加两个或多个空格，然后按回车即可完成换行(<code>&lt;br&gt;</code>)。</p>
+<hr>
+<h2 id="强调语法"><a href="#强调语法" class="headerlink" title="强调语法"></a>强调语法</h2><p><strong>强调</strong>：将文本字体设置为自己想要的粗体或斜体用来表示其重要性。</p>
+<h3 id="粗体-Bold"><a href="#粗体-Bold" class="headerlink" title="粗体(Bold)"></a>粗体(Bold)</h3><p>要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。例：<strong>粗体</strong>;</p>
+<h3 id="斜体-Italic"><a href="#斜体-Italic" class="headerlink" title="斜体(Italic)"></a>斜体(Italic)</h3><p>要用斜体显示文本，请在单词或短语前后添加一个星号（asterisk）或下划线（underscore）。要斜体突出单词的中间部分，请在字母前后各添加一个星号，中间不要带空格。例：<em>斜体</em>;</p>
+<hr>
+<h2 id="引用语法"><a href="#引用语法" class="headerlink" title="引用语法"></a>引用语法</h2><p>要创建引用，只需要在需要引用的文段前面加上一个 <code>&gt;</code> 符号即可创建一个引用模块。</p>
+<h3 id="多个段落的块的引用"><a href="#多个段落的块的引用" class="headerlink" title="多个段落的块的引用"></a>多个段落的块的引用</h3><p>块的引用可以包含多个段落，为段落之间的空白行添加一个<code>&gt;</code>符号。</p>
+<pre class="line-numbers language-none"><code class="language-none">&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</code></pre>
+<p><strong>渲染效果如下：</strong></p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+<h3 id="嵌套块引用"><a href="#嵌套块引用" class="headerlink" title="嵌套块引用"></a>嵌套块引用</h3><p>块引用可以嵌套。在要嵌套的段落前添加一个 <code>&gt;&gt;</code> 符号。</p>
+<pre class="line-numbers language-none"><code class="language-none">&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</code></pre>
+<p><strong>渲染效果如下：</strong></p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<h3 id="带有其他元素的块引用"><a href="#带有其他元素的块引用" class="headerlink" title="带有其他元素的块引用"></a>带有其他元素的块引用</h3><p>块引用可以包含其他 <code>Markdown</code> 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。</p>
+<pre class="line-numbers language-none"><code class="language-none">&gt; #### The quarterly results look great!
+&gt;
+&gt; - Revenue was off the chart.
+&gt; - Profits were higher than ever.
+&gt;
+&gt;  *Everything* is going according to **plan**.</code></pre>
+<p><strong>渲染效果如下：</strong></p>
+<blockquote>
+<h4 id="The-quarterly-results-look-great"><a href="#The-quarterly-results-look-great" class="headerlink" title="The quarterly results look great!"></a>The quarterly results look great!</h4><ul>
+<li>Revenue was off the chart.</li>
+<li>Profits were higher than ever.</li>
+</ul>
+<p> <em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>markdown</category>
+        <category>note</category>
       </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
   </entry>
   <entry>
     <title>OilPicture’Blog</title>
