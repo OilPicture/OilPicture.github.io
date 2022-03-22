@@ -3,10 +3,10 @@
   <entry>
     <title>markdown的语法规则</title>
     <url>//post/markdown-de-yu-fa-gui-ze.html</url>
-    <content><![CDATA[<h1 id="Markdown的基本语法"><a href="#Markdown的基本语法" class="headerlink" title="Markdown的基本语法"></a>Markdown的基本语法</h1><p><code>Markdown</code>是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与 <code>HTML</code> 混编，可导出 <code>HTML、PDF</code> 以及本身的 <code>.md</code> 格式的文件。因简洁、高效、易读、易写，<code>Markdown</code>被大量使用，如<code>Github、Wikipedia、简书</code>等</p>
+    <content><![CDATA[<p>Markdown，一种十分方便，排版语法十分简洁的一种轻量级语言。</p>
 <span id="more"></span>
-
-<hr>
+<p><code>Markdown</code>是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与 <code>HTML</code> 混编，可导出 <code>HTML、PDF</code> 以及本身的 <code>.md</code> 格式的文件。因简洁、高效、易读、易写，<code>Markdown</code>被大量使用，如<code>Github、Wikipedia、简书</code>等</p>
+<h1 id="Markdown的基本语法"><a href="#Markdown的基本语法" class="headerlink" title="Markdown的基本语法"></a>Markdown的基本语法</h1><hr>
 <h2 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h2><p>要创建标题，请在单词或短语前面添加井号（#）。#的数量代表了标题的级别。<br>例如，添加三个#表示创建一个三级标题(<code>&lt;h3&gt;</code>)(例如：<code>### 我的三级标题</code>).</p>
 <hr>
 <h2 id="段落语法"><a href="#段落语法" class="headerlink" title="段落语法"></a>段落语法</h2><p>要创建段落，请使用空白行将一行或多行文本进行分隔。而且无需使用空格(<code>spaces</code>)或制表符(<code>tabs</code>)缩进段落。</p>
@@ -128,7 +128,7 @@
 <h3 id="网址和Email地址"><a href="#网址和Email地址" class="headerlink" title="网址和Email地址"></a>网址和Email地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
 <pre class="line-numbers language-none"><code class="language-none">myBlog：&lt;https:&#x2F;&#x2F;oilpicture.github.io&#x2F;&gt;
 myEmail：&lt;wz217110@163.com&gt;</code></pre>
-<p><strong>渲染效果如下：</strong><br>myBlog：<a href="https://oilpicture.github.io/">https://oilpicture.github.io/</a><br>myEmail：<a href="mailto:&#119;&#122;&#50;&#x31;&#x37;&#x31;&#49;&#x30;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;">&#119;&#122;&#50;&#x31;&#x37;&#x31;&#49;&#x30;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p><strong>渲染效果如下：</strong><br>myBlog：<a href="https://oilpicture.github.io/">https://oilpicture.github.io/</a><br>myEmail：<a href="mailto:&#x77;&#122;&#50;&#x31;&#55;&#49;&#x31;&#48;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#x77;&#122;&#50;&#x31;&#55;&#49;&#x31;&#48;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <hr>
 <h2 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h2><p>要添加图像，请使用感叹号(<code>!</code>)，然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。<br>插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)</code>。</p>
 <pre class="line-numbers language-none"><code class="language-none">![这是图片](https:&#x2F;&#x2F;gitee.com&#x2F;cungudafa&#x2F;source&#x2F;raw&#x2F;master&#x2F;img&#x2F;bg&#x2F;hyo&#x2F;1.png &quot;Magic lady&quot;)</code></pre>
@@ -148,44 +148,19 @@ myEmail：&lt;wz217110@163.com&gt;</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>OilPicture’Blog</title>
+    <title>The beginning of everything</title>
     <url>//post/wo-de-di-yi-pian-bo-ke-wen-zhang.html</url>
-    <content><![CDATA[<h1 id="第一章：一级标题"><a href="#第一章：一级标题" class="headerlink" title="第一章：一级标题"></a>第一章：一级标题</h1><span id="more"></span>
-<p>内容</p>
-<hr>
-<h2 id="第二章：二级标题"><a href="#第二章：二级标题" class="headerlink" title="第二章：二级标题"></a>第二章：二级标题</h2><p>内容</p>
-<hr>
-<h3 id="第三章：三级标题"><a href="#第三章：三级标题" class="headerlink" title="第三章：三级标题"></a>第三章：三级标题</h3><!-- more -->
-<ul>
-<li>列表1</li>
-<li>列表2<br>  a 字列表<br>  b 字列表</li>
-<li>列表3</li>
-</ul>
-<!-- 链接 -->
-<p><a href="https://www.baidu.com/">百度导航</a>    </p>
-<!-- 插图 -->
-<p><img src="https://desk-fd.zol-img.com.cn/t_s640x530c5/g5/M00/06/08/ChMkJlXeb1KIVZGWACFv1tl0Xl4AABZ5QOw6uEAIW_u041.jpg" alt="插图片"></p>
-<!-- 斜体字 -->
-<p><em>字体变斜</em></p>
-<p><strong>字体加粗</strong></p>
-<p><code>&lt;html&gt;&lt;/html&gt;</code></p>
-<pre class="line-numbers language-none"><code class="language-none">&lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt;
-</code></pre>
-
-<blockquote>
-<p>yinyong</p>
-</blockquote>
-<hr>
-<h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><p><a href="http://www.baidu.com/">www.baidu.com</a></p>
+    <content><![CDATA[<h1 id="梦开始的地方……"><a href="#梦开始的地方……" class="headerlink" title="梦开始的地方……"></a>梦开始的地方……</h1><p>也许眼前充满着苟且，但学习是为了诗和远方……</p>
+<span id="more"></span>
+<p>选择了物联网这个专业，注定要和电脑打很多的交道，需要了解很多关于网络上的知识，刚开始对这门专业并没有多大的感兴趣，大一期间也不会经常使用自己的电脑，自己的电脑一天到晚在寝室睡大觉，也不清楚自己要干嘛，但是，在学习了很多关于各种网络的知识之后，又觉得这又是个很酷的行业，就是有点费头发，装酷起来是真的装酷，之前会看过别人自己搭建的博客网站后，觉得十分的炫酷，也会想自己是不是也能搭建一个属于自己的博客网站。经过自己在网上查一些有关这方面的知识，了解过后发现这想上手也不是很难，便开始自己着手搭建了起来，然后便有了你们现在看到的这个博客网站，当然，它是属于我的。</p>
+<p>其实很早之前自己开始想建一个自己的博客网站</p>
 ]]></content>
       <categories>
-        <category>fisrt</category>
+        <category>pleasure</category>
       </categories>
       <tags>
-        <tag>导航</tag>
-        <tag>分享</tag>
+        <tag>Blog</tag>
+        <tag>share</tag>
       </tags>
   </entry>
   <entry>
