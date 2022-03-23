@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-22T15:34:36.439Z</updated>
+  <updated>2022-03-23T05:44:48.752Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo进阶之各种优化</title>
+    <link href="http://example.com/post/hello-world.html"/>
+    <id>http://example.com/post/hello-world.html</id>
+    <published>2022-03-23T02:55:59.000Z</published>
+    <updated>2022-03-23T05:44:48.752Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-npm速度优化&quot;&gt;&lt;a href=&quot;#1-npm速度优化&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="note" scheme="http://example.com/categories/note/"/>
+    
+    
+    <category term="share" scheme="http://example.com/tags/share/"/>
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>markdown的语法规则</title>
@@ -55,22 +82,6 @@
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
     
     <category term="share" scheme="http://example.com/tags/share/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/post/hello-world.html"/>
-    <id>http://example.com/post/hello-world.html</id>
-    <published>2022-03-18T07:21:59.994Z</published>
-    <updated>2022-03-20T05:57:08.031Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;</summary>
-    
-    
-    
     
   </entry>
   
