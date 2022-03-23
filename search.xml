@@ -313,8 +313,24 @@ neat_js:
         <category>note</category>
       </categories>
       <tags>
-        <tag>share</tag>
         <tag>Hexo</tag>
+        <tag>share</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>The beginning of everything</title>
+    <url>//post/wo-de-di-yi-pian-bo-ke-wen-zhang.html</url>
+    <content><![CDATA[<h1 id="梦开始的地方……"><a href="#梦开始的地方……" class="headerlink" title="梦开始的地方……"></a>梦开始的地方……</h1><p>也许眼前充满着苟且，但学习是为了诗和远方……</p>
+<span id="more"></span>
+<p>选择了物联网这个专业，注定要和电脑打很多的交道，需要了解很多关于网络上的知识，刚开始对这门专业并没有多大的感兴趣，大一期间也不会经常使用自己的电脑，自己的电脑一天到晚在寝室睡大觉，也不清楚自己要干嘛，但是，在学习了很多关于各种网络的知识之后，又觉得这又是个很酷的行业，就是有点费头发，装酷起来是真的装酷，之前会看过别人自己搭建的博客网站后，觉得十分的炫酷，也会想自己是不是也能搭建一个属于自己的博客网站。经过自己在网上查一些有关这方面的知识，了解过后发现这想上手也不是很难，便开始自己着手搭建了起来，然后便有了你们现在看到的这个博客网站，当然，它是属于我的。</p>
+<p>其实很早之前自己开始想建一个自己的博客网站</p>
+]]></content>
+      <categories>
+        <category>pleasure</category>
+      </categories>
+      <tags>
+        <tag>share</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -445,7 +461,7 @@ neat_js:
 <h3 id="网址和Email地址"><a href="#网址和Email地址" class="headerlink" title="网址和Email地址"></a>网址和Email地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
 <pre class="line-numbers language-none"><code class="language-none">myBlog：&lt;https:&#x2F;&#x2F;oilpicture.github.io&#x2F;&gt;
 myEmail：&lt;wz217110@163.com&gt;</code></pre>
-<p><strong>渲染效果如下：</strong><br>myBlog：<a href="https://oilpicture.github.io/">https://oilpicture.github.io/</a><br>myEmail：<a href="mailto:&#x77;&#122;&#50;&#49;&#55;&#x31;&#x31;&#x30;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#x77;&#122;&#50;&#49;&#55;&#x31;&#x31;&#x30;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p><strong>渲染效果如下：</strong><br>myBlog：<a href="https://oilpicture.github.io/">https://oilpicture.github.io/</a><br>myEmail：<a href="mailto:&#x77;&#122;&#x32;&#x31;&#55;&#49;&#49;&#48;&#64;&#49;&#54;&#x33;&#46;&#99;&#x6f;&#x6d;">&#x77;&#122;&#x32;&#x31;&#55;&#49;&#49;&#48;&#64;&#49;&#54;&#x33;&#46;&#99;&#x6f;&#x6d;</a></p>
 <hr>
 <h2 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h2><p>要添加图像，请使用感叹号(<code>!</code>)，然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。<br>插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)</code>。</p>
 <pre class="line-numbers language-none"><code class="language-none">![这是图片](https:&#x2F;&#x2F;gitee.com&#x2F;cungudafa&#x2F;source&#x2F;raw&#x2F;master&#x2F;img&#x2F;bg&#x2F;hyo&#x2F;1.png &quot;Magic lady&quot;)</code></pre>
@@ -462,22 +478,6 @@ myEmail：&lt;wz217110@163.com&gt;</code></pre>
       <tags>
         <tag>markdown</tag>
         <tag>grammar</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>The beginning of everything</title>
-    <url>//post/wo-de-di-yi-pian-bo-ke-wen-zhang.html</url>
-    <content><![CDATA[<h1 id="梦开始的地方……"><a href="#梦开始的地方……" class="headerlink" title="梦开始的地方……"></a>梦开始的地方……</h1><p>也许眼前充满着苟且，但学习是为了诗和远方……</p>
-<span id="more"></span>
-<p>选择了物联网这个专业，注定要和电脑打很多的交道，需要了解很多关于网络上的知识，刚开始对这门专业并没有多大的感兴趣，大一期间也不会经常使用自己的电脑，自己的电脑一天到晚在寝室睡大觉，也不清楚自己要干嘛，但是，在学习了很多关于各种网络的知识之后，又觉得这又是个很酷的行业，就是有点费头发，装酷起来是真的装酷，之前会看过别人自己搭建的博客网站后，觉得十分的炫酷，也会想自己是不是也能搭建一个属于自己的博客网站。经过自己在网上查一些有关这方面的知识，了解过后发现这想上手也不是很难，便开始自己着手搭建了起来，然后便有了你们现在看到的这个博客网站，当然，它是属于我的。</p>
-<p>其实很早之前自己开始想建一个自己的博客网站</p>
-]]></content>
-      <categories>
-        <category>pleasure</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-        <tag>share</tag>
       </tags>
   </entry>
 </search>

@@ -37,9 +37,9 @@
     <category term="note" scheme="http://example.com/categories/note/"/>
     
     
-    <category term="share" scheme="http://example.com/tags/share/"/>
-    
     <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="share" scheme="http://example.com/tags/share/"/>
     
   </entry>
   
@@ -79,9 +79,9 @@
     <category term="pleasure" scheme="http://example.com/categories/pleasure/"/>
     
     
-    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
-    
     <category term="share" scheme="http://example.com/tags/share/"/>
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
     
   </entry>
   
