@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-23T05:44:48.752Z</updated>
+  <updated>2022-03-24T11:33:29.140Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为什么要写博客</title>
+    <link href="http://example.com/post/wei-shi-me-yao-xie-bo-ke.html"/>
+    <id>http://example.com/post/wei-shi-me-yao-xie-bo-ke.html</id>
+    <published>2022-03-24T10:46:20.000Z</published>
+    <updated>2022-03-24T11:33:29.140Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;1972年，D.M.Ritchie用C语言写出了世界上第一个C语言程序&lt;code&gt;&amp;quot;Hello</summary>
+        
+      
+    
+    
+    
+    <category term="pleasure" scheme="http://example.com/categories/pleasure/"/>
+    
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo进阶之各种优化</title>

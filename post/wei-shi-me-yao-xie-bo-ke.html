@@ -4,10 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo进阶之各种优化, OilPicture">
-    <meta name="description" content="1.npm速度优化
+    <meta name="keywords" content="为什么要写博客, OilPicture">
+    <meta name="description" content="前言1972年，D.M.Ritchie用C语言写出了世界上第一个C语言程序&amp;quot;Hello World&amp;quot;！五十年后的现在——2022年的今天，我也来&amp;quot;Hello Blog&amp;quot;一下！
 
-大家在使用hexo的时候，肯定经常要和npm打交道，需要用到它去下载一些东西，但npm的下载速度确实有点不尽如人意。因为我们在使用hexo时，会需要用到npm去安装较多的插件，所以我们需要修改npm的仓库地址，以便能达">
+为什么要写博客准确的来">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo进阶之各种优化 | OilPicture</title>
+    <title>为什么要写博客 | OilPicture</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/OilPicture/OilPicture.github.io/medias/featureimages/26.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/OilPicture/OilPicture.github.io/libs/awesome/css/all.min.css">
@@ -431,12 +431,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/OilPicture/OilPicture.github.io/medias/featureimages/11.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/OilPicture/OilPicture.github.io/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo进阶之各种优化</h1>
+                    <h1 class="description center-align post-title">为什么要写博客</h1>
                 </div>
             </div>
         </div>
@@ -552,12 +552,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
-                            </a>
-                        
-                            <a href="/tags/share/">
-                                <span class="chip bg-color">share</span>
+                            <a href="/tags/Blog/">
+                                <span class="chip bg-color">Blog</span>
                             </a>
                         
                     </div>
@@ -568,8 +564,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/note/" class="post-category">
-                                note
+                            <a href="/categories/pleasure/" class="post-category">
+                                pleasure
                             </a>
                         
                     </div>
@@ -581,28 +577,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-03-23
+                    2022-03-24
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-03-23
+                    2022-03-24
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.3k
+                    1.5k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    14 分
+                    5 分
                 </div>
                 
 
@@ -625,312 +621,31 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="1-npm速度优化"><a href="#1-npm速度优化" class="headerlink" title="1.npm速度优化"></a>1.npm速度优化</h2><hr>
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>1972年，D.M.Ritchie用C语言写出了世界上第一个C语言程序<code>&quot;Hello World&quot;</code>！<br>五十年后的现在——2022年的今天，我也来<code>&quot;Hello Blog&quot;</code>一下！</p>
+<hr>
+<h1 id="为什么要写博客"><a href="#为什么要写博客" class="headerlink" title="为什么要写博客"></a>为什么要写博客</h1><p><strong>准确的来说</strong>，是为什么你应该从现在开始就写博客。</p>
 <blockquote>
-<p>大家在使用hexo的时候，肯定经常要和npm打交道，需要用到它去下载一些东西，但npm的下载速度确实有点不尽如人意。<br>因为我们在使用hexo时，会需要用到npm去安装较多的插件，所以我们需要修改npm的仓库地址，以便能达到更快的安装速度。</p>
+<p>写一个博客有很多的好处，却没有任何明显的坏处。<br>（阿灵顿的情况属于例外，而非常态，就像不能拿抽烟活到一百岁的英国老太太的个例来反驳抽烟对健康的极大损伤一样）</p>
 </blockquote>
-<ul>
-<li>阿里的淘宝团队在国内做了个跟npm仓库一样的镜像叫<code>cnpm</code>；</li>
-<li>淘宝镜像与npm官方包的同步频率目前为10分钟一次，来保证尽量与官方服务同步；</li>
-<li>所以说<code>npm</code>和<code>cnpm</code>两者之间可以说是一样的，不会有什么差别。</li>
-</ul>
-<h3 id="通过改变地址来使用淘宝镜像（推荐）"><a href="#通过改变地址来使用淘宝镜像（推荐）" class="headerlink" title="通过改变地址来使用淘宝镜像（推荐）"></a>通过改变地址来使用淘宝镜像（推荐）</h3><ul>
-<li>npm的默认仓库地址是 <code>https://registry.npmjs.org/</code></li>
-<li>可以使用以下命令查看当前npm的仓库地址<pre class="line-numbers language-none"><code class="language-none">npm config get registry</code></pre></li>
-<li>可以使用以下命令来改变默认下载地址，从而达到不安装cnpm就能采用淘宝镜像的目的，然后使用上面的get命令查看是否设置成功。<pre class="line-numbers language-none"><code class="language-none">npm config set registry https:&#x2F;&#x2F;registry.npm.taobao.org</code></pre>
-<h3 id="安装cnpm"><a href="#安装cnpm" class="headerlink" title="安装cnpm"></a>安装cnpm</h3></li>
-<li>安装cnpm，命令行代码：<pre class="line-numbers language-none"><code class="language-none">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</code></pre></li>
-<li>安装完成之后，可使用以下代码检查是否安装成功，安装成功之后，输入以下代码，则会出现版本号<pre class="line-numbers language-none"><code class="language-none">cnpm -v</code></pre></li>
-<li>成功安装之后，就可以使用<code>cnpm</code>去代替<code>npm</code>来执行安装命令了</li>
-</ul>
 <hr>
-<h2 id="2-访问速度的优化"><a href="#2-访问速度的优化" class="headerlink" title="2.访问速度的优化"></a>2.访问速度的优化</h2><hr>
-<h3 id="图片加载优化"><a href="#图片加载优化" class="headerlink" title="图片加载优化"></a>图片加载优化</h3><p>在做图片加载优化之前，让我们了解一下<code>预加载</code>和<code>懒加载</code>.</p>
+<h1 id="写博客的好处"><a href="#写博客的好处" class="headerlink" title="写博客的好处"></a>写博客的好处</h1><h2 id="1-可以交到志同道合的朋友"><a href="#1-可以交到志同道合的朋友" class="headerlink" title="1.可以交到志同道合的朋友"></a>1.可以交到志同道合的朋友</h2><p>我写博客，也会去浏览别人的博客，在我们这个高度信息化的时代，拓展朋友圈的一个重要的途径毫无疑问是，通过网络，而如何在这个网络的大世界中找到气味相投的朋友，如何判断别人和自己是否有共同的语言？读取他人的博客，体会他人所写文章中的感受；写自己的博客，让别人也能够了解自己，我很佩服一些能够用博客记录自己想法的人，向他们学习，这也是我决定写一个自己的博客的重要原因。<br><strong>为什么博客在结交志同道合的朋友方面的潜力要远胜于原始的交谈方式？很简单，</strong><br>第一：博客无地域限制，整个互联网上从A到B只有一个点击的距离；<br>第二：也是更重要的一点，即如果按照以前结交朋友的方式，需要互相聊天，交流观点，然后才逐渐熟悉起来，这需要一个较长的过程，而且更糟糕的是，当你遇到另一个陌生人，又要把整个过程重复一次，表达你已经对老友表达过的那番想法。可博客却做到了“一次表达，无数次阅读”，当我看到一个写了好几年的博客，看完了之后我仿佛和这个人交谈了很久，<strong>用程序员们喜欢听的话来说就是，“博客极大地增强了话语的复用性”。</strong></p>
 <hr>
-<h4 id="预加载"><a href="#预加载" class="headerlink" title="预加载"></a>预加载</h4><p><code>预加载</code>是一种在进入项目前提前进行资源加载的一种加载形式，避免在项目中加载缓慢，影响用户体验。</p>
-<ul>
-<li>缺点：会增加网站服务器的压力<h4 id="懒加载"><a href="#懒加载" class="headerlink" title="懒加载"></a>懒加载</h4><code>懒加载</code>一般是当图片滚动进可视化窗口内才加载图片，可视窗口之外的图片则不加载。</li>
-<li>优点：对服务器有一定缓解压力的作用</li>
-</ul>
-<p>我所使用的<a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery">matery主题</a>整体采用预加载的模式，这样可以在我们访问其他页面的时候会稍微快一点，我们可以在这个基础上对图片进行懒加载，这样做效果就是html、css、js加载之后，图片再加载。既保证了网页的打开速度，也不会因图片的庞大体积而拖累了整个页面的加载。</p>
-<h4 id="具体操作"><a href="#具体操作" class="headerlink" title="具体操作"></a>具体操作</h4><ul>
-<li><p>首先安装图片懒加载插件：<a target="_blank" rel="noopener" href="https://github.com/Troy-Yang/hexo-lazyload-image">hexo-lazyload-image</a></p>
-</li>
-<li><p>在Hexo的根目录执行以下代码操作：</p>
-<pre class="line-numbers language-none"><code class="language-none">cnpm install hexo-lazyload-image --save</code></pre></li>
-<li><p>然后在hexo配置文件<code>_config.yml</code>末尾添加以下代码：</p>
-<pre class="line-numbers language-none"><code class="language-none">lazyload:
-  enable: true 
-  onlypost: false  # 是否只对文章的图片做懒加载
-  loadingImg: # eg .&#x2F;images&#x2F;loading.gif</code></pre></li>
-<li><p>到这里就配置完了，执行<code>hexo cl&amp;&amp;hexo g &amp;&amp; hexo s</code>就有效果了，以后博客上的图片就都是懒加载了，以上步骤理论上任何主题都可以用</p>
-</li>
-<li><p>一般情况下懒加载会和<code>gallery</code>插件会发生冲突，结果可能就是点开图片，左翻右翻都是<code>loading image</code>。</p>
-</li>
-<li><p>matery主题的解决方案是：修改 <code>/themes/matery/source/js</code> 中的 <code>matery.js</code> 文件<br>在第108行加上：</p>
-<pre class="line-numbers language-none"><code class="language-none">$(document).find(&#39;img[data-original]&#39;).each(function()&#123;
-    $(this).parent().attr(&quot;href&quot;, $(this).attr(&quot;data-original&quot;));
-&#125;);</code></pre></li>
-<li><p>做完这步之后，还有点小Bug，首页的logo点击会直接打开logo图，而不是跳到首页。</p>
-</li>
-<li><p>伪解决方案：打开 <code>/themes/matery/layout/_partial/header.ejs</code> 文件，</p>
-</li>
-<li><p>在<code>img</code>和<code>span</code>的两个头加个<code>div</code>：</p>
-<pre class="line-numbers language-none"><code class="language-none">&lt;div class&#x3D;&quot;brand-logo&quot;&gt;
-    &lt;a href&#x3D;&quot;&lt;%- url_for() %&gt;&quot; class&#x3D;&quot;waves-effect waves-light&quot;&gt;
-        &lt;div&gt;
-            &lt;% if (theme.logo !&#x3D;&#x3D; undefined &amp;&amp; theme.logo.length &gt; 0) &#123; %&gt;
-            &lt;img src&#x3D;&quot;&lt;%&#x3D; theme.logo %&gt;&quot; class&#x3D;&quot;logo-img&quot; alt&#x3D;&quot;LOGO&quot;&gt;
-            &lt;% &#125; %&gt;
-            &lt;span class&#x3D;&quot;logo-span&quot;&gt;&lt;%- config.title %&gt;&lt;&#x2F;span&gt;
-        &lt;&#x2F;div&gt;
-    &lt;&#x2F;a&gt;
-&lt;&#x2F;div&gt;</code></pre>
-<h4 id="自定义loading图片"><a href="#自定义loading图片" class="headerlink" title="自定义loading图片"></a>自定义loading图片</h4></li>
-<li><p><code>hexo-lazyload-image</code> 插件提供了自定义<code>loading</code>图片的选项，方法就是在 <code>loadingImg</code> 后配置图片的路径就好了<br>Like this as follow：</p>
-<pre class="line-numbers language-none"><code class="language-none">lazyload:
-  enable: true 
-  onlypost: false  # 是否只对文章的图片做懒加载
-  loadingImg: &#x2F;medias&#x2F;loading.gif # eg .&#x2F;images&#x2F;loading.gif</code></pre>
-<h4 id="懒加载优化"><a href="#懒加载优化" class="headerlink" title="懒加载优化"></a>懒加载优化</h4><blockquote>
-<p>经过以上操作就已经很完美了，以下内容可做也可不做，depend on yourself！</p>
+<h2 id="2-书写是为了更好地思考"><a href="#2-书写是为了更好地思考" class="headerlink" title="2.书写是为了更好地思考"></a>2.书写是为了更好地思考</h2><p>这里引用一个广为流传的《数学牛人们的趣事》：</p>
+<blockquote>
+<p>有关于希尔伯特的一个故事：一次在Hilbert的讨论班上，一个年轻人报告，其中用了一个很漂亮的定理，Hilbert说“这真是一个妙不可言（wunderbaschon）的定理呀,是谁发现的？”那个年轻人茫然的站了很久，对Hilbert说：“是你.……”。</p>
 </blockquote>
-</li>
-<li><p>其实第一次加载后本地都是有缓存的，如果每次都把loading显示出来就不那么好看</p>
-</li>
-<li><p>所以我们需要对插件进行魔改，让图片稍微提前加载，避开加载动画</p>
-</li>
-<li><p>打开 <code>Hexo根目录</code> &gt; <code>node_modules</code> &gt; <code>hexo-lazyload-image</code> &gt; <code>lib</code> &gt; <code>simple-lazyload.js</code> 文件</p>
-</li>
-<li><p>第9行修改为：</p>
-<pre class="line-numbers language-none"><code class="language-none">&amp;&amp; rect.top &lt;&#x3D; (window.innerHeight +240 || document.documentElement.clientHeight +240)</code></pre></li>
-<li><p>作用：提前240个像素加载图片,当然这个值也可以根据自己情况修改</p>
-</li>
-</ul>
 <hr>
-<h3 id="代码压缩优化"><a href="#代码压缩优化" class="headerlink" title="代码压缩优化"></a>代码压缩优化</h3><h4 id="为什么要压缩代码："><a href="#为什么要压缩代码：" class="headerlink" title="为什么要压缩代码："></a>为什么要压缩代码：</h4><p>因为<code>hexo</code>生成的<code>html、css、js</code>等都有很多的空格或者换行，而空格和换行也是占用字节的，所以需要将空格换行去掉也就是我要进行的“压缩”。</p>
-<p>有人说空格换行能占多少字节？确实占不了多少，但是一个人访问是这么多字节，那么一百人，一万人呢？加起来这量就不少了吧，这都是流量啊！这也是很多<code>css/js</code>文件的后缀为<code>*.min.js或*.min.css</code>的原因。虽然我们可能没那么多访问量，但是能减小一点资源文件的大小也是对访问速度有那么一点提升的。</p>
-<h4 id="gulp实现代码压缩"><a href="#gulp实现代码压缩" class="headerlink" title="gulp实现代码压缩"></a>gulp实现代码压缩</h4><ul>
-<li>在hexo的根目录执行以下命令：<pre class="line-numbers language-none"><code class="language-none"># 全局安装gulp模块
-npm install gulp -g
-# 安装各种小功能模块  执行这步的时候，可能会提示权限的问题，最好以管理员模式执行
-npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify gulp-imagemin --save
-# 额外的功能模块
-npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 del @babel&#x2F;core --save</code></pre></li>
-<li>在Hexo根目录新建文件 <code>gulpfile.js</code>，并复制以下内容到文件中，有中文注释，可以根据自己需求修改。<pre class="line-numbers language-none"><code class="language-none">var gulp &#x3D; require(&quot;gulp&quot;);
-var debug &#x3D; require(&quot;gulp-debug&quot;);
-var cleancss &#x3D; require(&quot;gulp-clean-css&quot;); &#x2F;&#x2F;css压缩组件
-var uglify &#x3D; require(&quot;gulp-uglify&quot;); &#x2F;&#x2F;js压缩组件
-var htmlmin &#x3D; require(&quot;gulp-htmlmin&quot;); &#x2F;&#x2F;html压缩组件
-var htmlclean &#x3D; require(&quot;gulp-htmlclean&quot;); &#x2F;&#x2F;html清理组件
-var imagemin &#x3D; require(&quot;gulp-imagemin&quot;); &#x2F;&#x2F;图片压缩组件
-var changed &#x3D; require(&quot;gulp-changed&quot;); &#x2F;&#x2F;文件更改校验组件
-var gulpif &#x3D; require(&quot;gulp-if&quot;); &#x2F;&#x2F;任务 帮助调用组件
-var plumber &#x3D; require(&quot;gulp-plumber&quot;); &#x2F;&#x2F;容错组件（发生错误不跳出任务，并报出错误内容）
-var isScriptAll &#x3D; true; &#x2F;&#x2F;是否处理所有文件，(true|处理所有文件)(false|只处理有更改的文件)
-var isDebug &#x3D; true; &#x2F;&#x2F;是否调试显示 编译通过的文件
-var gulpBabel &#x3D; require(&quot;gulp-babel&quot;);
-var es2015Preset &#x3D; require(&quot;babel-preset-es2015&quot;);
-var del &#x3D; require(&quot;del&quot;);
-var Hexo &#x3D; require(&quot;hexo&quot;);
-var hexo &#x3D; new Hexo(process.cwd(), &#123;&#125;); &#x2F;&#x2F; 初始化一个hexo对象
-
-&#x2F;&#x2F; 清除public文件夹
-gulp.task(&quot;clean&quot;, function () &#123;
-    return del([&quot;public&#x2F;**&#x2F;*&quot;]);
-&#125;);
-
-&#x2F;&#x2F; 下面几个跟hexo有关的操作，主要通过hexo.call()去执行，注意return
-&#x2F;&#x2F; 创建静态页面 （等同 hexo generate）
-gulp.task(&quot;generate&quot;, function () &#123;
-    return hexo.init().then(function () &#123;
-        return hexo
-            .call(&quot;generate&quot;, &#123;
-                watch: false
-            &#125;)
-            .then(function () &#123;
-                return hexo.exit();
-            &#125;)
-            .catch(function (err) &#123;
-                return hexo.exit(err);
-            &#125;);
-    &#125;);
-&#125;);
-
-&#x2F;&#x2F; 启动Hexo服务器
-gulp.task(&quot;server&quot;, function () &#123;
-    return hexo
-        .init()
-        .then(function () &#123;
-            return hexo.call(&quot;server&quot;, &#123;&#125;);
-        &#125;)
-        .catch(function (err) &#123;
-            console.log(err);
-        &#125;);
-&#125;);
-
-&#x2F;&#x2F; 部署到服务器
-gulp.task(&quot;deploy&quot;, function () &#123;
-    return hexo.init().then(function () &#123;
-        return hexo
-            .call(&quot;deploy&quot;, &#123;
-                watch: false
-            &#125;)
-            .then(function () &#123;
-                return hexo.exit();
-            &#125;)
-            .catch(function (err) &#123;
-                return hexo.exit(err);
-            &#125;);
-    &#125;);
-&#125;);
-
-&#x2F;&#x2F; 压缩public目录下的js文件
-gulp.task(&quot;compressJs&quot;, function () &#123;
-    return gulp
-        .src([&quot;.&#x2F;public&#x2F;**&#x2F;*.js&quot;, &quot;!.&#x2F;public&#x2F;libs&#x2F;**&quot;]) &#x2F;&#x2F;排除的js
-        .pipe(gulpif(!isScriptAll, changed(&quot;.&#x2F;public&quot;)))
-        .pipe(gulpif(isDebug, debug(&#123; title: &quot;Compress JS:&quot; &#125;)))
-        .pipe(plumber())
-        .pipe(
-            gulpBabel(&#123;
-                presets: [es2015Preset] &#x2F;&#x2F; es5检查机制
-            &#125;)
-        )
-        .pipe(uglify()) &#x2F;&#x2F;调用压缩组件方法uglify(),对合并的文件进行压缩
-        .pipe(gulp.dest(&quot;.&#x2F;public&quot;)); &#x2F;&#x2F;输出到目标目录
-&#125;);
-
-&#x2F;&#x2F; 压缩public目录下的css文件
-gulp.task(&quot;compressCss&quot;, function () &#123;
-    var option &#x3D; &#123;
-        rebase: false,
-        &#x2F;&#x2F;advanced: true, &#x2F;&#x2F;类型：Boolean 默认：true [是否开启高级优化（合并选择器等）]
-        compatibility: &quot;ie7&quot; &#x2F;&#x2F;保留ie7及以下兼容写法 类型：String 默认：&#39;&#39;or&#39;*&#39; [启用兼容模式； &#39;ie7&#39;：IE7兼容模式，&#39;ie8&#39;：IE8兼容模式，&#39;*&#39;：IE9+兼容模式]
-        &#x2F;&#x2F;keepBreaks: true, &#x2F;&#x2F;类型：Boolean 默认：false [是否保留换行]
-        &#x2F;&#x2F;keepSpecialComments: &#39;*&#39; &#x2F;&#x2F;保留所有特殊前缀 当你用autoprefixer生成的浏览器前缀，如果不加这个参数，有可能将会删除你的部分前缀
-    &#125;;
-    return gulp
-        .src([&quot;.&#x2F;public&#x2F;**&#x2F;*.css&quot;, &quot;!.&#x2F;public&#x2F;**&#x2F;*.min.css&quot;]) &#x2F;&#x2F;排除的css
-        .pipe(gulpif(!isScriptAll, changed(&quot;.&#x2F;public&quot;)))
-        .pipe(gulpif(isDebug, debug(&#123; title: &quot;Compress CSS:&quot; &#125;)))
-        .pipe(plumber())
-        .pipe(cleancss(option))
-        .pipe(gulp.dest(&quot;.&#x2F;public&quot;));
-&#125;);
-
-&#x2F;&#x2F; 压缩public目录下的html文件
-gulp.task(&quot;compressHtml&quot;, function () &#123;
-    var cleanOptions &#x3D; &#123;
-        protect: &#x2F;&lt;\!--%fooTemplate\b.*?%--&gt;&#x2F;g, &#x2F;&#x2F;忽略处理
-        unprotect: &#x2F;&lt;script [^&gt;]*\btype&#x3D;&quot;text\&#x2F;x-handlebars-template&quot;[\s\S]+?&lt;\&#x2F;script&gt;&#x2F;gi &#x2F;&#x2F;特殊处理
-    &#125;;
-    var minOption &#x3D; &#123;
-        collapseWhitespace: true, &#x2F;&#x2F;压缩HTML
-        collapseBooleanAttributes: true, &#x2F;&#x2F;省略布尔属性的值 &lt;input checked&#x3D;&quot;true&quot;&#x2F;&gt; &#x3D;&#x3D;&gt; &lt;input &#x2F;&gt;
-        removeEmptyAttributes: true, &#x2F;&#x2F;删除所有空格作属性值 &lt;input id&#x3D;&quot;&quot; &#x2F;&gt; &#x3D;&#x3D;&gt; &lt;input &#x2F;&gt;
-        removeScriptTypeAttributes: true, &#x2F;&#x2F;删除&lt;script&gt;的type&#x3D;&quot;text&#x2F;javascript&quot;
-        removeStyleLinkTypeAttributes: true, &#x2F;&#x2F;删除&lt;style&gt;和&lt;link&gt;的type&#x3D;&quot;text&#x2F;css&quot;
-        removeComments: true, &#x2F;&#x2F;清除HTML注释
-        minifyJS: true, &#x2F;&#x2F;压缩页面JS
-        minifyCSS: true, &#x2F;&#x2F;压缩页面CSS
-        minifyURLs: true &#x2F;&#x2F;替换页面URL
-    &#125;;
-    return gulp
-        .src(&quot;.&#x2F;public&#x2F;**&#x2F;*.html&quot;)
-        .pipe(gulpif(isDebug, debug(&#123; title: &quot;Compress HTML:&quot; &#125;)))
-        .pipe(plumber())
-        .pipe(htmlclean(cleanOptions))
-        .pipe(htmlmin(minOption))
-        .pipe(gulp.dest(&quot;.&#x2F;public&quot;));
-&#125;);
-
-&#x2F;&#x2F; 压缩 public&#x2F;medias 目录内图片
-gulp.task(&quot;compressImage&quot;, function () &#123;
-    var option &#x3D; &#123;
-        optimizationLevel: 5, &#x2F;&#x2F;类型：Number 默认：3 取值范围：0-7（优化等级）
-        progressive: true, &#x2F;&#x2F;类型：Boolean 默认：false 无损压缩jpg图片
-        interlaced: false, &#x2F;&#x2F;类型：Boolean 默认：false 隔行扫描gif进行渲染
-        multipass: false &#x2F;&#x2F;类型：Boolean 默认：false 多次优化svg直到完全优化
-    &#125;;
-    return gulp
-        .src(&quot;.&#x2F;public&#x2F;medias&#x2F;**&#x2F;*.*&quot;)
-        .pipe(gulpif(!isScriptAll, changed(&quot;.&#x2F;public&#x2F;medias&quot;)))
-        .pipe(gulpif(isDebug, debug(&#123; title: &quot;Compress Images:&quot; &#125;)))
-        .pipe(plumber())
-        .pipe(imagemin(option))
-        .pipe(gulp.dest(&quot;.&#x2F;public&quot;));
-&#125;);
-&#x2F;&#x2F; 执行顺序： 清除public目录 -&gt; 产生原始博客内容 -&gt; 执行压缩混淆 -&gt; 部署到服务器
-gulp.task(
-    &quot;build&quot;,
-    gulp.series(
-        &quot;clean&quot;,
-        &quot;generate&quot;,
-        &quot;compressHtml&quot;,
-        &quot;compressCss&quot;,
-        &quot;compressJs&quot;,
-        &quot;compressImage&quot;,
-        gulp.parallel(&quot;deploy&quot;)
-    )
-);
-
-&#x2F;&#x2F; 默认任务
-gulp.task(
-    &quot;default&quot;,
-    gulp.series(
-        &quot;clean&quot;,
-        &quot;generate&quot;,
-        gulp.parallel(&quot;compressHtml&quot;, &quot;compressCss&quot;, &quot;compressJs&quot;,&quot;compressImage&quot;)
-    )
-);
-&#x2F;&#x2F;Gulp4最大的一个改变就是gulp.task函数现在只支持两个参数，分别是任务名和运行任务的函数</code></pre></li>
-<li>以后执行方式有两种：<ul>
-<li>直接在Hexo根目录执行 <code>gulp</code> 或者 <code>gulp default</code> ，这个命令相当于 <code>hexo cl &amp;&amp; hexo g</code> 并且再把代码和图片压缩。</li>
-<li>在Hexo根目录执行 <code>gulp build</code> ，这个命令与第1种相比是：在最后又加了个 <code>hexo d</code> ，等于说生成、压缩文件后又帮你自动部署了。</li>
-</ul>
-</li>
-<li>值得注意的是：这个加入了图片压缩，如果不想用图片压缩可以把第154行的 <code>&quot;compressImage&quot;</code>, 和第165行的 ,<code>&quot;compressImage&quot;</code> 去掉即可<h4 id="hexo-neat插件实现代码压缩"><a href="#hexo-neat插件实现代码压缩" class="headerlink" title="hexo-neat插件实现代码压缩"></a>hexo-neat插件实现代码压缩</h4></li>
-<li>可能以上方法比较复杂，来介绍个简单的，<a target="_blank" rel="noopener" href="https://github.com/rozbo/hexo-neat">hexo-neat</a>插件也是用来压缩代码的，底层也是通过gulp来实现的。</li>
-<li>但是这个插件是有Bug的：<br>  1.压缩 md 文件会使 markdown 语法的代码块消失<br>  2.会删除全角空格</li>
-<li>Hexo根目录执行安装代码：<pre class="line-numbers language-none"><code class="language-none">cnpm install hexo-neat --save</code></pre></li>
-<li>在Hexo配置文件 <code>_config.yml</code> 末尾加入以下配置：<pre class="line-numbers language-none"><code class="language-none">neat_enable: true
-neat_html:
-  enable: true
-  exclude:
-neat_css:
-  enable: true
-  exclude:
-    - &#39;*.min.css&#39;
-neat_js:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - &#39;*.min.js&#39;</code></pre></li>
-<li>然后直接<code>hexo cl &amp;&amp; hexo g</code>就可以了，会自动压缩文件。</li>
-<li><strong>补充</strong>：为了解决以上Bug，<strong>对于matery主题</strong>需要将以上的默认配置修改为：<pre class="line-numbers language-none"><code class="language-none">#hexo-neat 优化提速插件（去掉HTML、css、js的blank字符）
-neat_enable: true
-neat_html:
-  enable: true
-  exclude:
-    - &#39;**&#x2F;*.md&#39;
-neat_css:
-  enable: true
-  exclude:
-    - &#39;**&#x2F;*.min.css&#39;
-neat_js:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - &#39;**&#x2F;*.min.js&#39;
-    - &#39;**&#x2F;**&#x2F;instantpage.js&#39;
-    - &#39;**&#x2F;matery.js&#39;</code></pre></li>
-</ul>
-
+<h2 id="3-“教”是最好的“学”"><a href="#3-“教”是最好的“学”" class="headerlink" title="3.“教”是最好的“学”"></a>3.“教”是最好的“学”</h2><p><strong>如果有一件事情你不能给别人讲清楚，十有八九你还没有完全理解。</strong>绝大多数人都应该知道在程序员面试的时候，面试官经常会要求你讲解一个东西给他听，他会说他不懂这个东西（如果他是真的不懂，你应该窃喜了），而你的任务就是讲到让他理解为止。</p>
+<p>大二时期，教我们单片机老师就给我们讲过，考研复试的时候，如果你的导师和你聊的时间越久，说明你录取的几率更大，因为你的导师他会由难到易的问你问题，直到把你问倒了，他才会心满意足，这想必是很多导师的“虚荣心”；如果你复试的时间很短，并不是代表你很顺利，而是代表着你两下就被打发，你的导师问你简单的问题都无法回答，所以你应该反思……</p>
+<p>所以我们平时就要养成一个能把自己学会的东西，会教给他人的习惯，写博客无疑是一个很好的途径。</p>
+<hr>
+<h2 id="4-激励自己去持续学习和思考"><a href="#4-激励自己去持续学习和思考" class="headerlink" title="4.激励自己去持续学习和思考"></a>4.激励自己去持续学习和思考</h2><p>如果你没有持续学习和思考的习惯，你的博客很快就会没有内容可写，就只能整点碎碎念或者转载，然后你就会失去读者，然后你就会关掉博客，然后一旦关掉博客之后你也就死了写博客的心，然后就少了一条激励你去思考和总结的途径，然后你变得更不高兴总结和思考，然后…</p>
+<p>为了打破这个死循环，不要永久停止更新你的博客，就算你两个月，三个月都不写，只要你每篇都是写自己思考的产物，写有价值的东西，在互联网上，金子的确总是会发光的，因为有无数的信息聚合平台在期待这些有价值的内容，有搜索引擎为你的内容提供海量的潜在读者，有海量的人肉在手动挖掘和转载那些有价值的东西。</p>
+<p><strong>我们所能做的最差的一个决策莫过于停止做一件没有任何坏处，却有一大堆好处的事情。</strong></p>
+<hr>
+<h2 id="5-学会持之以恒地做一件事情"><a href="#5-学会持之以恒地做一件事情" class="headerlink" title="5.学会持之以恒地做一件事情"></a>5.学会持之以恒地做一件事情</h2><p>很多人在生活中容易觉得迷失，不知道想要做什么，是因为没有一件能够持续地做的事情，用俗话来说就是没有主心骨。用积极心理学的话来说就是没有一件能够创造流体验的事情，而书写自己的思想则是一件容易产生流体验的事情，在书写的时候，特别是理性地书写的时候，大脑逐渐进入推理分析模块，一切不愉快的情绪，烦躁感都会逐渐消隐下去。不过前提是你得开始，并且坚持过一开始的困难期，以后的一切便成了习惯成自然。</p>
+<hr>
+<h2 id="6-一个长期的价值博客是一份很好的简历"><a href="#6-一个长期的价值博客是一份很好的简历" class="headerlink" title="6.一个长期的价值博客是一份很好的简历"></a>6.一个长期的价值博客是一份很好的简历</h2>
                 
             </div>
             <hr/>
@@ -956,7 +671,7 @@ neat_js:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/post/hello-world.html">http://example.com/post/hello-world.html</a>
+                    <a href="http://example.com/post/wei-shi-me-yao-xie-bo-ke.html">http://example.com/post/wei-shi-me-yao-xie-bo-ke.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -994,12 +709,8 @@ neat_js:
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
-                                </a>
-                            
-                                <a href="/tags/share/">
-                                    <span class="chip bg-color">share</span>
+                                <a href="/tags/Blog/">
+                                    <span class="chip bg-color">Blog</span>
                                 </a>
                             
                         </div>
@@ -1439,9 +1150,10 @@ neat_js:
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/post/wei-shi-me-yao-xie-bo-ke.html">
                     <div class="card-image">
@@ -1459,9 +1171,9 @@ neat_js:
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-03-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-24
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1474,6 +1186,7 @@ neat_js:
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1492,24 +1205,24 @@ neat_js:
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/post/markdown-de-yu-fa-gui-ze.html">
+                <a href="/post/hello-world.html">
                     <div class="card-image">
                         
                         
-                        <img src="http://images.shejidaren.com/wp-content/uploads/2015/11/dribbble-gif-8.gif" data-original="https://cdn.jsdelivr.net/gh/OilPicture/OilPicture.github.io/medias/featureimages/14.jpg" class="responsive-img" alt="markdown的语法规则">
+                        <img src="http://images.shejidaren.com/wp-content/uploads/2015/11/dribbble-gif-8.gif" data-original="https://cdn.jsdelivr.net/gh/OilPicture/OilPicture.github.io/medias/featureimages/11.jpg" class="responsive-img" alt="Hexo进阶之各种优化">
                         
-                        <span class="card-title">markdown的语法规则</span>
+                        <span class="card-title">Hexo进阶之各种优化</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Markdown，一种十分方便，排版语法十分简洁的一种轻量级语言。
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-23
                             </span>
                         <span class="publish-author">
                             
@@ -1526,12 +1239,12 @@ neat_js:
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/markdown/">
-                        <span class="chip bg-color">markdown</span>
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
                     </a>
                     
-                    <a href="/tags/grammar/">
-                        <span class="chip bg-color">grammar</span>
+                    <a href="/tags/share/">
+                        <span class="chip bg-color">share</span>
                     </a>
                     
                 </div>
